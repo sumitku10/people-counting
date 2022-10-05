@@ -30,24 +30,28 @@ h1{
 }
 h2{
     font-size: 50px;
+    color: azure;
+     
     position: relative;
     top: 50px;    
 }
 
 button{
-    border: 10px;
+    
     position: relative;
     top: 50px;
-    font-size: 20px;
-    background-color: rgb(16, 149, 250);
+    font-size: 40px;
+    background-color: rgb(156, 209, 249);
     
 } 
+
 button:hover{
-    color: rgb(32, 254, 254);
+    color: rgb(95, 95, 95);
 }
  
 #increment-btn{
+    text-align: center;
     border: 80px;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(236, 129, 129);
 }  
