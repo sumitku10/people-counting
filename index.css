@@ -18,6 +18,7 @@ body{
     position: absolute;
     top: 60px;
     left: 38%;
+    opacity: 80%;
     background-color: #6c6c6c;
     
 }
@@ -31,24 +32,27 @@ h1{
 h2{
     font-size: 50px;
     color: azure;
-     
     position: relative;
     top: 50px;    
 }
 
 button{
-    
+    display: block;
     position: relative;
     top: 50px;
-    font-size: 40px;
-    background-color: rgb(156, 209, 249);
+    left: 120px;
+    font-size: 30px;
+    background-color: rgb(10, 122, 209);
     
 } 
 
 button:hover{
-    color: rgb(95, 95, 95);
+    color: rgb(125, 0, 0);
 }
- 
+#save-btn{
+    position: relative;
+    left: 150px;
+} 
 #increment-btn{
     text-align: center;
     border: 80px;
