@@ -8,7 +8,7 @@ function increment() {
     count = count + 1
     countEl.innerText=count
 }
-
+//save btn//
 function save() {
     console.log(count)
     
